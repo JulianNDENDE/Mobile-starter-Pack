@@ -1,8 +1,6 @@
 # Mobile-starter-Pack
 Mobile app project created to learn React-native &amp; Expo (libs: on)
 
-# My Awesome Project
-
 🚀📱🎉
 
 Welcome to my awesome project! This project was built using React Native Paper and Expo.
