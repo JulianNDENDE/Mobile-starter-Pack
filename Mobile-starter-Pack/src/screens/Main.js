@@ -4,7 +4,6 @@ import { BottomNavigation } from 'react-native-paper';
 
 import Settings from './Settings';
 import HomeScreen from './HomeScreen';
-import TopNavBar from '../components/topNavBar';
 
 const Main = () => {
   const [index, setIndex] = React.useState(0);

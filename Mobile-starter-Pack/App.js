@@ -9,7 +9,6 @@ import Main from './src/screens/Main';
 import HomeScreen from './src/screens/HomeScreen';
 import Settings from './src/screens/Settings';
 import Chat from './src/screens/Chat';
-import TopNavBar from './src/components/topNavBar';
 
 const Stack = createStackNavigator();
 

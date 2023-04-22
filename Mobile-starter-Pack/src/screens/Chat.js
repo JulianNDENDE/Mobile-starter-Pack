@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
 import { TextInput, Button, List } from 'react-native-paper';
-import TopNavBar from '../components/topNavBar';
 
 const Chat = () => {
   const [message, setMessage] = useState('');
