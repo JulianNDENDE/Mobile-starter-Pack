@@ -3,9 +3,16 @@ Mobile app project created to learn React-native &amp; Expo (libs: on)
 
 🚀📱🎉
 
-Welcome to my awesome project! This project was built using React Native Paper and Expo.
+Welcome to my awesome project! This project was built using React Native Paper and Expo.  
+  
+## Dependencies
 
-## Installation
+0 - Clone this repo
+1 - Run npm install to install the required dependencies
+2 - Install React Native Paper by running npm install react-native-paper
+3 - For more information on how to use React Native Paper, refer to the official documentation
+  
+## React-Native-Paper
 
 To install React Native Paper, run:  
   
