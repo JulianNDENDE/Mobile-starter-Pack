@@ -1,3 +1,4 @@
+import { useNavigation } from '@react-navigation/native';
 import React from 'react';
 import { StyleSheet, View, ScrollView, Image } from 'react-native';
 import { Appbar, Avatar, Card, IconButton } from 'react-native-paper';
@@ -30,12 +31,17 @@ const posts = [
 ];
 
 export default function HomeScreen() {
+    const nav = useNavigation()
+    const onChat = () => {
+        console.log('Chat')
+        nav.navigate('Chat')
+    }
     return (
         <View style={styles.container}>
             <Appbar>
                 <Appbar.Action icon="camera" onPress={() => console.log('Open camera')} />
                 <Appbar.Content title="SaveYourPet" />
-                <Appbar.Action icon="send" onPress={() => console.log('Open direct messages')} />
+                <Appbar.Action icon="send" onPress={onChat} />
             </Appbar>
 
             <ScrollView>
