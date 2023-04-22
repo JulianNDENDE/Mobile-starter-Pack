@@ -7,12 +7,20 @@ Welcome to my awesome project! This project was built using React Native Paper a
   
 ## Dependencies
 
-0 - Clone this repo
-1 - Run npm install to install the required dependencies
-2 - Install React Native Paper by running npm install react-native-paper
-3 - For more information on how to use React Native Paper, refer to the official documentation
+- [1. Install the required dependencies](#Install)  
+- [2. React Native Paper](#React-Native-Paper)  
+- [3. Running project](#Running)  
+- [4. Build an APK](#Build)  
   
-## React-Native-Paper
+## Install Dependencies <a name="Install"></a>  
+
+Install the required dependencies  
+  
+```
+npm install
+```
+  
+## React-Native-Paper <a name="React-Native-Paper"></a>  
 
 To install React Native Paper, run:  
   
@@ -22,7 +30,7 @@ To install React Native Paper, run:
   
 For more information, check out the [official documentation](https://callstack.github.io/react-native-paper/).
 
-## Running the Project
+## Running the Project <a name="Running"></a>  
 
 To run the project using Expo, run:  
   
@@ -32,7 +40,7 @@ npx expo start
   
 For more information, check out the [Expo documentation](https://docs.expo.dev/).
 
-## Building an APK
+## Building an APK <a name="Build"></a>
 
 Before building the APK, you need to install the EAS CLI by running:
   
@@ -46,5 +54,4 @@ To build the APK, run:
 eas build -p android
 ```
   
-For more information, check out the [EAS documentation](https://docs.expo.dev/build/introduction/).
   
