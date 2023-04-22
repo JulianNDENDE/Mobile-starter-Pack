@@ -12,7 +12,7 @@ Welcome to my awesome project! This project was built using React Native Paper a
 - [3. Running project](#Running)  
 - [4. Build an APK](#Build)  
   
-## Install Dependencies <a name="Install"></a>  
+# Install Dependencies <a name="Install"></a>  
 
 Install the required dependencies  
   
@@ -20,7 +20,7 @@ Install the required dependencies
 npm install
 ```
   
-## React-Native-Paper <a name="React-Native-Paper"></a>  
+# React-Native-Paper <a name="React-Native-Paper"></a>  
 
 To install React Native Paper, run:  
   
@@ -30,7 +30,7 @@ To install React Native Paper, run:
   
 For more information, check out the [official documentation](https://callstack.github.io/react-native-paper/).
 
-## Running the Project <a name="Running"></a>  
+# Running the Project <a name="Running"></a>  
 
 To run the project using Expo, run:  
   
@@ -40,7 +40,7 @@ npx expo start
   
 For more information, check out the [Expo documentation](https://docs.expo.dev/).
 
-## Building an APK <a name="Build"></a>
+# Building an APK <a name="Build"></a>
 
 Before building the APK, you need to install the EAS CLI by running:
   
