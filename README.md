@@ -5,12 +5,12 @@ Mobile app project created to learn React-native &amp; Expo (libs: on)
 
 Welcome to my awesome project! This project was built using React Native Paper and Expo.  
   
-## Dependencies
+## Summary
 
-- [1. Install the required dependencies](#Install)  
-- [2. React Native Paper](#React-Native-Paper)  
-- [3. Running project](#Running)  
-- [4. Build an APK](#Build)  
+- [Install the required dependencies](#Install)  
+- [React Native Paper](#React-Native-Paper)  
+- [Running project](#Running)  
+- [Build an APK](#Build)  
   
 # Install Dependencies <a name="Install"></a>  
 
