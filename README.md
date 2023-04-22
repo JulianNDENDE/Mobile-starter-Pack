@@ -13,7 +13,6 @@ To install React Native Paper, run:
   
 ```
   npm install react-native-paper
-
 ```
   
 For more information, check out the [official documentation](https://callstack.github.io/react-native-paper/).
@@ -24,7 +23,6 @@ To run the project using Expo, run:
   
 ```
 npx expo start
-
 ```
   
 For more information, check out the [Expo documentation](https://docs.expo.dev/).
@@ -35,14 +33,12 @@ Before building the APK, you need to install the EAS CLI by running:
   
 ```
 npm install -g eas-cli
-
 ```
   
 To build the APK, run:
 
 ```
 eas build -p android
-
 ```
   
 For more information, check out the [EAS documentation](https://docs.expo.dev/build/introduction/).
