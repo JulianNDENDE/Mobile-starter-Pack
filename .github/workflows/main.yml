@@ -23,11 +23,11 @@ jobs:
       - name: Install EAS
         run: cd Mobile-starter-Pack && npm install -g eas-cli
       
-      - name: Log in to Expo EAS
-        run: cd Mobile-starter-Pack && eas login --non-interactive
+      - name: Authenticate with Expo EAS
+        run: cd Mobile-starter-Pack && eas-cli login --non-interactive
       
       - name: Build APK
-        run: cd Mobile-starter-Pack && eas
+        run: cd Mobile-starter-Pack && eas-cli build
       
       - name: Release APK
         uses: actions/upload-release-asset@v1
