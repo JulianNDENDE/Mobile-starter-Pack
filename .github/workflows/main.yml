@@ -20,11 +20,14 @@ jobs:
       - name: Install dependencies
         run: yarn install
       
-      - name: Log in to Expo
-        run: cd Mobile-starter-Pack && expo login -u ${{ secrets.EXPO_CLI_USERNAME }} -p ${{ secrets.EXPO_CLI_PASSWORD }}
+      - name: Install EAS
+        run: cd Mobile-starter-Pack && npm install -g eas-cli
+      
+      - name: Log in to Expo EAS
+        run: cd Mobile-starter-Pack && eas login ${{ secrets.EXPO_CLI_USERNAME }}
       
       - name: Build APK
-        run: expo build:android
+        run: cd Mobile-starter-Pack && eas
       
       - name: Release APK
         uses: actions/upload-release-asset@v1
