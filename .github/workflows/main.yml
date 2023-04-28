@@ -21,7 +21,7 @@ jobs:
         run: yarn install
       
       - name: Build APK
-        run: cd Mobile-starter-Pack && npx expo build:android
+        run: cd Mobile-starter-Pack && eas build -p android 
       
       - name: Release APK
         uses: actions/upload-release-asset@v1
