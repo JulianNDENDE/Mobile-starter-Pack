@@ -26,6 +26,7 @@ const Chat = () => {
       const newMessage = { id: Math.random().toString(), sender: 'me', message };
       setMessages([newMessage, ...messages]);
       setMessage('');
+      console.log('sent');
     }
   };
 
