@@ -24,7 +24,7 @@ jobs:
         run: cd Mobile-starter-Pack && npm install -g eas-cli
       
       - name: Log in to Expo EAS
-        run: cd Mobile-starter-Pack && eas login ${{ secrets.EXPO_CLI_USERNAME }}
+        run: cd Mobile-starter-Pack && eas login --non-interactive
       
       - name: Build APK
         run: cd Mobile-starter-Pack && eas
