@@ -12,7 +12,7 @@ const TopNavBar = () => {
     };
   return (
     <View style={styles.container}>
-      <TouchableOpacity style={styles.backButton} onPress={onBackPress}>
+      <TouchableOpacity style={styles.backButton} onPress={onBackPress} testID="back-button">
         <Ionicons name="chevron-back" size={24} color="white" />
       </TouchableOpacity>
     </View>
