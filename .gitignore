@@ -56,3 +56,6 @@ dist/
 
 # Vscode
 .vscode/
+
+# Coverage
+coverage/

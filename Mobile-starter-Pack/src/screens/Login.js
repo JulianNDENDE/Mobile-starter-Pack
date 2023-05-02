@@ -5,14 +5,14 @@ import { useNavigation } from '@react-navigation/native';
 import { StyleSheet } from 'react-native';
 
 
-export default function Login() {
-  const nav = useNavigation();
+export default function Login(props) {
+  const { navigation } = props;
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
     console.log('Login', email);
-    nav.navigate('Main', { email });
+    navigation.navigate('Main', { email });
   };
 
   return (

@@ -22,8 +22,9 @@ const Chat = () => {
   ]);
 
   const sendMessage = () => {
+    if (!message) return;
     if (message.trim()) {
-      const newMessage = { id: Math.random().toString(), sender: 'me', message };
+      const newMessage = { id: 1 + messages.length, sender: 'me', message };
       setMessages([newMessage, ...messages]);
       setMessage('');
     }
@@ -33,6 +34,7 @@ const Chat = () => {
     const isMe = item.sender === 'me';
     return (
       <List.Item
+        testID={`${item.id}`}
         title={item.message}
         titleNumberOfLines={10}
         titleStyle={[

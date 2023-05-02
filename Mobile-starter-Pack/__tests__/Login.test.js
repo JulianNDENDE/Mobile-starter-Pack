@@ -41,9 +41,9 @@ test('calls handleLogin when login button is pressed', () => {
   const mockNavigation = { navigate: jest.fn() };
   const { getByTestId } = render(
     <NavigationContainer>
-      <Login />
+      <Login navigation={mockNavigation} />
     </NavigationContainer>
-  );
+  );  
   const emailInput = getByTestId('Email');
   const passwordInput = getByTestId('Password');
   const loginButton = getByTestId('login-button');
